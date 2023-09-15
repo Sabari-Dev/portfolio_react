@@ -34,6 +34,7 @@ export const Contact = () => {
         .then(
           (result) => {
             toast.success("Thank you for the Message.");
+             setData({ user_name: "", user_email: "", message: "" });
           },
           (error) => {
             console.log(error.text);
