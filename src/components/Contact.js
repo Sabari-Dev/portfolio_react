@@ -77,6 +77,7 @@ export const Contact = () => {
                           type="text"
                           name="user_name"
                           placeholder="First Name"
+                          value={data.user_name}
                           onChange={handleChange}
                         />
                       </Col>
@@ -84,6 +85,7 @@ export const Contact = () => {
                         <input
                           type="email"
                           name="user_email"
+                          value={data.user_email}
                           placeholder="Email Address"
                           onChange={handleChange}
                         />
@@ -94,6 +96,7 @@ export const Contact = () => {
                           rows="6"
                           name="message"
                           placeholder="Message"
+                          value={data.message}
                           onChange={handleChange}
                         ></textarea>
                         <button type="submit" value="Send">
