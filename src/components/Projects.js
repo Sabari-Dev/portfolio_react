@@ -42,7 +42,7 @@ export const Projects = () => {
       description:
         "A simple design and work like Spotify own Player.using this website we can add,delete,like and unlike the song.",
       gitLink: "https://github.com/Sabari-Dev/spotify-clone-reactJs.git",
-      hostLink: "https://spotifyclone-sabari.netlify.app/",
+      hostLink: "https://spotify-clone-react-js-eta.vercel.app/",
       imgUrl: spotify,
     },
     {
