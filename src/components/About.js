@@ -2,7 +2,7 @@ import React from "react";
 import image from "../assets/img/me.png";
 import TrackVisibility from "react-on-screen";
 import { Container, Row, Col } from "react-bootstrap";
-import cv from "../assets/cv/sabari_resume.pdf";
+import cv from "../assets/cv/Sabarinathan-resume.pdf";
 import { RiFolderDownloadFill } from "react-icons/ri";
 
 const About = () => {
